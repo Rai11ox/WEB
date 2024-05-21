@@ -1,0 +1,26 @@
+body {
+    background-image: url('Image/1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.forms {
+    float: right;
+}
+section {
+    margin: 2% 5%;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+}
+
+article {
+    margin: 2% 5%;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+}
+
+section p, article p {
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #333; 
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+    <head>
+        <title>register</title>
+        <meta charset=UTF-8>
+        <style>
+            header {
+                background-color: #0074D9;
+                color: #fff;
+                text-align: center;
+                padding: 20px;
+            }
+    
+            .header-logo {
+                font-size: 24px;
+                font-weight: bold;
+            }
+    
+            .header-nav {
+                margin-top: 20px;
+            }
+    
+            .header-nav a {
+                text-decoration: none;
+                color: #fff;
+                margin: 0 20px;
+            }
+    
+            .header-nav a:hover {
+                text-decoration: underline;
+            }
+            footer {
+                background-color: #0074D9;
+                color: #fff;
+                text-align: center;
+                padding: 20px;
+                width: 100%;
+            }
+            
+            .footer-content {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .footer-logo {
+                font-size: 20px;
+                font-weight: bold;
+            }
+            
+            .footer-nav a {
+                text-decoration: none;
+                color: #fff;
+                margin: 0 20px;
+            }
+            
+            .footer-nav a:hover {
+                text-decoration: underline;
+            }
+            
+            .footer-info {
+                margin-top: 10px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="header-logo">Мій сайт</div>
+            <nav class="header-nav">
+                <a href="index.html">Головна</a>
+                <a href="Poltava.html">Моє рідне місто</a>
+                <a href="registr.html">Реєстрація</a>
+                <a href="Poltava.html#vuzi">Вузи Полтавщини</a>
+                <a href="#eda">Мої улюблені страви</a>
+            </nav>
+        </header>
+        <table border="1" width="40%" cellspacing="3" cellpadding="10" align="center">
+            <tr>
+                <th align="center" colspan="3"><font color="red" size="6">Реєстрація</font></th>
+            </tr>
+            <tr>
+                <td width="3%">1.</td>
+                <td width="47%">Прізвище</td>
+                <td><input type="text" name="interesting" size="50%" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td width="3%">2.</td>
+                <td width="47%">Ім'я, по батькові</td>
+                <td><input type="text" name="interesting" size="50%" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td width="3%">3.</td>
+                <td width="47%">Дата, рік народження</td>
+                <td><input type="date" name="interesting" size="50%" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td width="3%">4.</td>
+                <td width="47%">Домашня адреса</td>
+                <td><input type="text" name="interesting" size="50%" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td width="3%">5.</td>
+                <td width="47%">Місце навчання (роботи)</td>
+                <td><input type="text" name="interesting" size="50%" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td width="3%">6.</td>
+                <td width="47%">Телефон</td>
+                <td><input type="text" name="interesting" size="50%" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td width="3%">7.</td>
+                <td width="47%">E-mail</td>
+                <td><input type="text" name="interesting" size="50%" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td width="3%">8.</td>
+                <td width="47%">Ведіть ваш логін</td>
+                <td><input type="text" name="interesting" size="50%" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td width="3%">9.</td>
+                <td width="47%">Ведіть ваш пароль</td>
+                <td><input type="text" name="interesting" size="50%" maxlength="30"></td>
+            </tr>
+            
+        <td>10.</td>
+        <td>Стать</td>
+        <td>
+        <label for="male">Чоловік</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        
+        <label for="female">Жінка</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+    </td>
+</tr>
+                <td colspan="3"><input type="reset" name="interesting" value="Очистити">&nbsp;<input type="button" value="Реєструвати" >&nbsp;<a href="index.html"><input type="button" value="Повернутися на головну"></a></td>
+            </tr>
+        </table>
+        
+    </body>

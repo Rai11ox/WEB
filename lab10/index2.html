@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab10-3</title>
+</head>
+<body>
+    <p>ВВЕДІТЬ ВАШЕ ІМ'Я:</p>
+    <input name="myName" id="myNameInput">
+    <input type="button" value="OK" onclick="showGreeting()">
+    
+    <script>
+        function showGreeting() {
+            var myName = document.getElementById("myNameInput").value;
+            var backgroundColor, textColor;
+
+            // Визначаємо колір фону та тексту в залежності від імені
+            if (myName === "Denis") {
+                backgroundColor = "#ffccff";
+                textColor = "#990099";
+            } else {
+                backgroundColor = "#fff"; // колір фону за замовчуванням
+                textColor = "#000"; // колір тексту за замовчуванням
+            }
+
+            var greeting = '<html><body style="background-color:' + backgroundColor + '; color:' + textColor + ';"><h3 align="center">Добрий день, ' + myName + '</h3></body></html>';
+            document.write(greeting);
+        }
+    </script>
+</body>
+</html>

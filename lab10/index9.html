@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab10-10</title>
+</head>
+    <body>
+    
+
+
+    <CENTER>
+    <IMG height="300" src="Serenada.gif" width="350" border="1">
+    </CENTER>
+    <SCRIPT>
+        var al = 0;
+        function podmen() {
+            var w = document.images[0].src;
+            var ch = w.lastIndexOf("/");
+            var path = w.substring(0, ch + 1);
+            if (al == 0) {
+                document.images[0].src = path + "Ptichka.jpg";
+                al = 1;
+            } else {
+                document.images[0].src = path + "Serenada.gif";
+                al = 0;
+            }
+            setTimeout(podmen, 600);
+        }
+    
+        setTimeout(podmen, 600);
+    </SCRIPT>
+    </BODY>
+</html>    
